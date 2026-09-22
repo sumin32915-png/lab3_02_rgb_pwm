@@ -29,7 +29,7 @@ always @(posedge clk_50mhz or posedge rst_p) begin
 if (rst_p) begin
 level_r <= 0; level_g <= 0; level_b <= 0;
 end else begin
-if (press_r) level_r <= (level_r == LEVELS) ? 0 : level_r + 1'b1;
+if (press_r) level_r <= (level_r == LEVELS) ? 0 : level_r + 2'b1;
 if (press_g) level_g <= (level_g == LEVELS) ? 0 : level_g + 1'b1;
 if (press_b) level_b <= (level_b == LEVELS) ? 0 : level_b + 1'b1;
 end
