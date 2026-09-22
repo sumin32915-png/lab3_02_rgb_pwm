@@ -23,7 +23,7 @@ end endtask
 initial begin
 $dumpfile("wave.vcd");$dumpvars(0,tb_rgb_pwm);
 repeat(3)@(posedge clk_50mhz);rst_p=0;
-repeat(2)press_r();repeat(3)press_g();repeat(8)press_b();measure(2,5,8);
+repeat(2)press_r();repeat(5)press_g();repeat(8)press_b();measure(2,5,8);
 press_r();measure(3,5,8);
 $display("LAB3_RGB_PWM_PASS checks=%0d",checks);$finish;
 end

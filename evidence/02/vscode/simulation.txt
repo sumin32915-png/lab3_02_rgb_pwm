@@ -16,3 +16,15 @@ ERROR: 종료 코드 1: C:\Users\sumin\lab3_20_rgb_pwm\build\sim\run-8264a94247b
 
  *  The terminal process "C:\Users\sumin\AppData\Local\Microsoft\WindowsApps\python.EXE 'tools/fpga_lab.py', 'simulate'" terminated with exit code: 1. 
  *  Terminal will be reused by tasks, press any key to close it. 
+
+ [3] 복구 로그
+ RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\sumin\lab3_20_rgb_pwm\src -I C:\Users\sumin\lab3_20_rgb_pwm\sim -s tb_rgb_pwm -o C:\Users\sumin\lab3_20_rgb_pwm\build\sim\run-4ee0e913bb1b48e8be2a00c2ee0943d2\sim.vvp C:\Users\sumin\lab3_20_rgb_pwm\src\button_onepulse.v C:\Users\sumin\lab3_20_rgb_pwm\src\pwm_channel.v C:\Users\sumin\lab3_20_rgb_pwm\src\lab3_rgb_pwm.v C:\Users\sumin\lab3_20_rgb_pwm\sim\tb_rgb_pwm.sv
+
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab3_20_rgb_pwm\build\sim\run-4ee0e913bb1b48e8be2a00c2ee0943d2\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB3_RGB_PWM_PASS checks=2
+C:\Users\sumin\lab3_20_rgb_pwm\sim\tb_rgb_pwm.sv:28: $finish called at 4431000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\sumin\lab3_20_rgb_pwm\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
