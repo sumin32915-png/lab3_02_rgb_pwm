@@ -1,0 +1,7 @@
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_rgb_pwm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1743.469 ; gain = 0.000
+run all
+LAB3_RGB_PWM_PASS checks=2
+$finish called at time : 4431 ns : File "C:/Users/sumin/lab3_20_rgb_pwm/sim/tb_rgb_pwm.sv" Line 28
